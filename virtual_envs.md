@@ -21,7 +21,7 @@
 
 > With your new environment active, run `conda list`.  You will not have any packages installed.   
 > Notice also that if you run `python --version`, no version shows up.  Python has not been installed.  We could have installed a Python version when we created the environment:
->> `conda create -name python=3.8.5`
+>> `conda create --name classification python=3.8.5`
 
 > The version above is the one included with learn-env. 
 
@@ -44,7 +44,7 @@
 ## Install the ipykernel
 > In order to make the new environment available to the Jupyter server, we need to install the kernel.  With your environment running, after replacing the filler text with your environment name, run the following line.
 
->> python -m ipykernel install --user --name <environment_name_here> --display-name "display_name_here"
+>> python -m ipykernel install --user --name environment_name_here --display-name "display_name_here"
 
 > Filled in:
 >> python -m ipykernel install --user --name classification --display-name "classification"
